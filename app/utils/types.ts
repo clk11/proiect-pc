@@ -3,7 +3,3 @@ export type actionFunction = (
     formData: FormData
 ) => Promise<{message: string}>;
 
-export type Post = {
-    postTitle: String
-    postContent: String
-}

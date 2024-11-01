@@ -16,20 +16,9 @@ generator client {
   
 }
 
-// model User {
-//   id        String    @id @default(uuid())
-//   name      String
-//   email     String    @unique
-//   posts     Post[]
-//   username  String    @unique
-//   password  String
-//   role      String
-//   comments  Comment[]
-//   createdAt DateTime  @default(now())
-//   updatedAt DateTime  @updatedAt
-// }
 
-// model Comment {
+
+// model Review {
 //   id        String    @id @default(uuid())
 //   content   String
 //   user      User      @relation(fields: [userId], references: [id])
@@ -41,8 +30,6 @@ generator client {
 model Category {
   id           String @id @default(uuid())
   title        String
-  description  String
-  profesor     String
   posts        Post[]
 }
 
