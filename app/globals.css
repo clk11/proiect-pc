@@ -115,6 +115,9 @@
 }
 
 
+.astronaut{
+  overflow: hidden;
+}
 
 .backg{
   margin: 0 auto;
