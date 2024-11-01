@@ -20,12 +20,12 @@ function NavSearch() {
     }
     replace(`/posts?${params}`);
   } , 500)
-
+  const searchingParams = searchParams.get('search');
   useEffect(() => {
     if(!searchParams.get('search')) {
       setSearch('');
     }
-  }, [searchParams.get('search')])
+  }, [searchParams])
 
   return (
     <Input
