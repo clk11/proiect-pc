@@ -14,7 +14,7 @@ export default function Navbar() {
         <Logo />
         <NavMenu />
       </div>
-      <div className="flex-1 flex justify-center">
+      <div className="flex-1 flex justify-center lg:mr-40">
         <NavSearch />
       </div>
       <div className="flex items-center gap-2">
