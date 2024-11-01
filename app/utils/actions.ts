@@ -23,9 +23,6 @@ export const fetchAllPosts = async ({search = ''} : {search : string}) => {
                 {content: {contains: search , mode: 'insensitive'}},               
             ]
         },
-        include: {
-            category: true,
-        },
        
         orderBy: {
             createdAt: "desc"
