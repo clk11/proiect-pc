@@ -9,10 +9,10 @@ export default async function page({searchParams } : {searchParams?: {search: st
     const posts = await fetchAllPosts({search});
     console.log({searchParams});
     if(posts.length === 0) return <div className='posts-container'>
-      <div className="flex flex-col items-center gap-1">
+      <div className="flex flex-col items-center">
     <TbNotesOff size={32} />
-    <p>No properties match your search.</p>
-    <div className='astronaut'>
+    <p>No properties found.</p>
+    <div className='astronaut' style={{marginTop: '-7rem'}}>
    <div className="backg">
   <div className="planet">
     <div className="r1"></div>
