@@ -51,7 +51,7 @@ export default async function Nav() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Membrii Echipei</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Membrii</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] lg:grid-cols-3 md:grid-cols-2 lg:w-[900px] ">
             
